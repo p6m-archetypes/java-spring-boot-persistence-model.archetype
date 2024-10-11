@@ -1,0 +1,17 @@
+---
+description: "Java Persistence Model Archetype"
+authors: [ "Jimmie Fulton" ]
+languages: [ "Java" ]
+frameworks: [ "Spring Data", "JPA" ]
+tags: [ "Java", "JPA", "Application" ]
+
+requires:
+  archetect: 2.0.2-ALPHA
+
+scripting:
+  main: './scripting/main.rhai'
+  modules: './scripting/modules'
+
+templating:
+  content: './templating/content'
+  templates: './templating/templates'
