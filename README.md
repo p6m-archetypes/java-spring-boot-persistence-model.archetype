@@ -1,12 +1,12 @@
-# PlatformApplication Manifests Archetype
+# Java Spring Boot Persistence Model Archetype
 
-This archetype generates a manifest structure for a platform application.  It can be rendered stand-alone, to retrofit
-existing applications, or it can be composed by other archetypes, allowing all share a common manifest standard.
+This archetype generates a Java Sprint Boot Persistence Model for a Spring
+Boot-based Service. This Archetype is generally used as a library within
+other archetypes, as is not intended to be used directly unless you really know
+what you are doing.
 
 ## Usage
 
-After switching into the _root directory_ of your application project, run the following command:
-
 ```shell
-archetect render git@github.com:p6m-archetypes/platform-application-manifests-archetype.git
+archetect render git@github.com:p6m-archetypes/java-spring-boot-persistence-model.archetype.git
 ```
